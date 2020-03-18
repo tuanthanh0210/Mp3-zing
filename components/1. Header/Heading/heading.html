@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./heading.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Heading  -->
+    <div class="header">
+        <nav class="#">
+            <div class="navbar d-flex justify-content-around bg-light">
+                <a href=""><img style="width: 100px;"
+                        src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg" alt="..."
+                        class="rounded-0"></a>
+                <div style="width: 60%;margin-left: 3rem;">
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <div class="input-group-text bg-white border-right-0">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </span>
+                        <input style="width: 80%;" class="input-search py-2 border-left-0 border" type="search"
+                            placeholder="Nhập tên bài hát..." id="example-search-input" />
+                    </div>
+                </div>
+                <div class="d-flex align-item-center">
+                    <img style="width: 55px;"
+                        src="https://s120-ava-talk.zadn.vn/8/e/6/f/24/120/2b81edad9393397e143959c5d7153bb8.jpg"
+                        alt="..." class="rounded-circle">
+                    <p class="d-flex flex-column px-2">
+                        <span>Lê Tuấn Thành</span>
+                        <span style="font-size: 12px;">Tài khoản <bm style=" font-weight: bold;">VIP</em></span>
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Nhạc cá nhân</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                            <span>
+                                <a class="dropdown-item" href="#">Dark Mode</a>
+                                <!-- <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitches">
+                                    <label class="custom-control-label" for="customSwitches"></label>
+                                </div> -->
+                            </span>
+                        </div>
+                    </div>
+                    <!-- <i class="fas fa-angle-down"></i> -->
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            #ZingChart
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mới phát hành
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Top 100
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Chủ đề
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MV
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Album
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nghệ sĩ
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Việt Nam</a>
+                            <a class="dropdown-item" href="#">Âu Mỹ</a>
+                            <a class="dropdown-item" href="#">Hàn Quốc</a>
+                            <a class="dropdown-item" href="#">Nhật Bản</a>
+                            <a class="dropdown-item" href="#">Tàu Khựa</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nhạc cá nhân
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="nav-item nav-link active" href="#"><button class="btn-vip">VIP</button></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+</body>
+
+</html>

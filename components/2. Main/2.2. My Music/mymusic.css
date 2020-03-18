@@ -1,0 +1,36 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.my-music h3{
+    margin: 1rem 0;
+}
+
+.far{
+    opacity: 1;
+}
+
+.my-music .card-desk .card img:hover .far{
+    opacity: 1;
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover{
+    color: purple !important;
+}
+
+.my-music .card-title{
+    font-size: 0.85rem;
+    margin: 0 !important;
+}
+
+.my-music .card-body{
+    text-align: center;
+    padding: 0.5rem 0 !important;
+}
+

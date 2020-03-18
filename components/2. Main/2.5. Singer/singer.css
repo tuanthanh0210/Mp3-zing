@@ -1,0 +1,59 @@
+.all-singer {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.all-singer .singer {
+  background: rgb(199, 198, 196);
+  background: linear-gradient(
+    153deg,
+    rgba(199, 198, 196, 1) 37%,
+    rgba(103, 101, 101, 0.8687850140056023) 54%,
+    rgba(210, 209, 209, 1) 74%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: right !important;
+  padding: 1rem !important;
+  max-width: 290px;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.all-singer .singer .info {
+  position: absolute;
+  right: 1rem;
+}
+.all-singer .singer img {
+  width: 100px;
+}
+
+.all-singer .singer .name {
+  font-size: 0.8rem;
+  font-weight: bold;
+  /* position: absolute; */
+  right: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.all-singer .singer .icon {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.66rem;
+  padding: 0.25rem 0.75rem !important;
+  border-radius: 0.33rem;
+  margin-bottom: 0;
+  color: white;
+  background: rgb(246, 13, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 13, 255, 1) 23%,
+    rgba(147, 43, 254, 1) 59%,
+    rgba(125, 77, 253, 1) 100%,
+    rgba(255, 187, 13, 1) 100%,
+    rgba(255, 240, 13, 1) 100%,
+    rgba(255, 134, 13, 1) 100%
+  );
+}

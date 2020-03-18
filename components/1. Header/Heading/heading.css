@@ -1,0 +1,45 @@
+*{
+    font-family: Roboto, sans-serif;;
+}
+
+.input-search:focus {
+    border: 1px solid #dee2e6!important;
+    outline: none !important;
+    border-left: none !important;
+}
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+ .dropdown-toggle::after{
+     visibility: hidden;
+ }
+ .btn-vip{
+    background: rgb(255,134,13);
+    background: linear-gradient(90deg, rgba(255,134,13,1) 2%, rgba(255,183,13,1) 27%, rgba(255,187,13,1) 51%, rgba(255,240,13,1) 79%);
+    padding: 3px 15px ;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+
+}
+.btn-vip:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+.header li{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header li:active{
+    border-bottom: 1px solid purple;
+}
