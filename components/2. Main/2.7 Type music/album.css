@@ -1,3 +1,30 @@
+.type-music {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-music .card{
+    margin: 0 1rem;
+}
+
+.type-music .card:last-child{
+    margin-right: 0;
+}
+
+.type-music .card:first-child{
+    margin-left: 0;
+}
+
+.type-music .card .card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+
 body{
     width: 1000px;
     margin: auto;

@@ -1,7 +1,7 @@
 .all-singer {
-    max-width: 1200px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
 }
 
 .all-singer .singer {

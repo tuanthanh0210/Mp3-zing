@@ -1,0 +1,16 @@
+.card-deck{
+    margin: 1.5rem;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img-top{
+    transition: 0.5s;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.2);
+}
+
