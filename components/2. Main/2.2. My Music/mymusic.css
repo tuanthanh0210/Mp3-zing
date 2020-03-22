@@ -3,6 +3,17 @@ body{
   margin: auto;
 }
 
+.cart-deck:first-child{
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.card {
+  border: none;
+  margin: 0rem !important;
+  padding: 0rem;
+}
+
 .album-cover {
   overflow: hidden;
  
